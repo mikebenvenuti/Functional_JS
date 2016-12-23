@@ -1,6 +1,5 @@
 #Functional Programming in JavaScript
-
-##Luis Atencio
+###Luis Atencio
 
 
 **Map Reduce**
