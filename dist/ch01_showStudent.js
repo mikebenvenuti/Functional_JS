@@ -38,9 +38,12 @@ function getSSN(ssn) {
 
     var people = [{ name: 'Frank', age: 30 }, { name: 'Susan', age: 10 }, { name: 'Bill', age: 22 }, { name: 'Carol', age: 52 }, { name: 'Stephanie', age: 22 }, { name: 'Kyle', age: 68 }, { name: 'Hank', age: 22 }];
 
-    var result2 = _(people).take(3).sortBy('age').value();
-
+    var result2 = _(data).take(5).sortBy('firstname').value();
+    
+    console.log('---------------------')
     console.log(result2);
+    console.log('---------------------')
+
 
      //var yyy =  _.filter(data, {ssn: "111-22-3333"});
     //var result =  _.first(data,2);
